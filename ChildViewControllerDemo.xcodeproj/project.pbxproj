@@ -13,6 +13,7 @@
 		0276872124F8533B00E6BE4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276871F24F8533B00E6BE4A /* MainViewController.swift */; };
 		0276872224F8533B00E6BE4A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0276872024F8533B00E6BE4A /* MainViewController.xib */; };
 		0276872524F854D900E6BE4A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276872424F854D900E6BE4A /* NavigationController.swift */; };
+		0276872824F8578F00E6BE4A /* UIViewController+ChildViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276872724F8578F00E6BE4A /* UIViewController+ChildViewControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0276871F24F8533B00E6BE4A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0276872024F8533B00E6BE4A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		0276872424F854D900E6BE4A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		0276872724F8578F00E6BE4A /* UIViewController+ChildViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildViewControllers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0276870824F852E200E6BE4A /* ChildViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0276872624F8577700E6BE4A /* Extensions */,
 				0276871D24F8531E00E6BE4A /* Controllers */,
 				0276870924F852E200E6BE4A /* AppDelegate.swift */,
 				0276871224F852E300E6BE4A /* Assets.xcassets */,
@@ -89,6 +92,14 @@
 				0276872424F854D900E6BE4A /* NavigationController.swift */,
 			);
 			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		0276872624F8577700E6BE4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0276872724F8578F00E6BE4A /* UIViewController+ChildViewControllers.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0276872824F8578F00E6BE4A /* UIViewController+ChildViewControllers.swift in Sources */,
 				0276872124F8533B00E6BE4A /* MainViewController.swift in Sources */,
 				0276872524F854D900E6BE4A /* NavigationController.swift in Sources */,
 				0276870A24F852E200E6BE4A /* AppDelegate.swift in Sources */,
